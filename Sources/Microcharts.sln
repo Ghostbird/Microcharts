@@ -53,10 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microcharts.Samples.Maui.Wi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFA376D4-83E0-47FD-895F-1E451748C2C9}"
 	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
 		Nuget.config = Nuget.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microcharts.Maui", "Microcharts.Maui\Microcharts.Maui.csproj", "{7AC713E7-D307-40A8-A23B-46D0D50D96D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microcharts.Maui", "Microcharts.Maui\Microcharts.Maui.csproj", "{7AC713E7-D307-40A8-A23B-46D0D50D96D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
