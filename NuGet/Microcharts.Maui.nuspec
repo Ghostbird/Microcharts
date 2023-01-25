@@ -14,19 +14,19 @@
         <tags>maui dotnet chart skia skiasharp cross-platform</tags>
         <dependencies>
             <group targetFramework="net6.0-android">
-                <dependency id="SkiaSharp.Views.Maui.Controls"  version="2.88.0-preview.61" />
+                <dependency id="SkiaSharp.Views.Maui.Controls"  version="2.88.3" />
                 <dependency id="Microsoft.Maui.Dependencies" version="6.0.100-preview.6.1003" />
             </group>
             <group targetFramework="net6.0-ios">
-                <dependency id="SkiaSharp.Views.Maui.Controls"  version="2.88.0-preview.61" />
+                <dependency id="SkiaSharp.Views.Maui.Controls"  version="2.88.3" />
                 <dependency id="Microsoft.Maui.Dependencies" version="6.0.100-preview.6.1003" />
             </group>
             <group targetFramework="net6.0-maccatalyst">
-                <dependency id="SkiaSharp.Views.Maui.Controls"  version="2.88.0-preview.61" />
+                <dependency id="SkiaSharp.Views.Maui.Controls"  version="2.88.3" />
                 <dependency id="Microsoft.Maui.Dependencies" version="6.0.100-preview.6.1003" />
             </group>
             <group targetFramework="net6.0-windows10.0.19041">
-                <dependency id="SkiaSharp.Views.Maui.Controls"  version="2.88.0-preview.61" />
+                <dependency id="SkiaSharp.Views.Maui.Controls"  version="2.88.3" />
                 <dependency id="Microsoft.Maui.Dependencies" version="6.0.100-preview.6.1003" />
             </group>
         </dependencies>

@@ -411,7 +411,7 @@ namespace Microcharts.Samples
             yield return new ExampleChartItem()
             {
                 ExampleName = "Default",
-                ExampleDescription = "Default radial gauge example",
+                ExampleTextDescription = "Default radial gauge example",
                 Chart = new RadialGaugeChart
                 {
                     Entries = GenerateDefaultXamarinEntries(),
@@ -427,7 +427,7 @@ namespace Microcharts.Samples
             yield return new ExampleChartItem()
             {
                 ExampleName = "Default",
-                ExampleDescription = "Default example",
+                ExampleTextDescription = "Default example",
                 Chart = new HalfRadialGaugeChart
                 {
                     Entries = GenerateDefaultXamarinEntries(),
@@ -585,7 +585,7 @@ namespace Microcharts.Samples
             yield return new ExampleChartItem()
             {
                 ExampleName = "Simple chart with horizontal label over bar with rounded top corners",
-                ExampleDescription = "Display Y axis lines and values, with value label over bar with rounded top corners",
+                ExampleTextDescription = "Display Y axis lines and values, with value label over bar with rounded top corners",
                 Chart = new BarChart
                 {
                     AnimationDuration = TimeSpan.FromSeconds(0),
@@ -794,7 +794,7 @@ namespace Microcharts.Samples
             yield return new ExampleChartItem()
             {
                 ExampleName = "Value label top of Bar item, with rounded top corners",
-                ExampleDescription = "Grouped bar chart with default legend and Y Axis and value display on top of bars with rounded top corners.",
+                ExampleTextDescription = "Grouped bar chart with default legend and Y Axis and value display on top of bars with rounded top corners.",
                 ExampleChartType = ExampleChartType.Series,
                 Chart = new BarChart
                 {
@@ -1390,7 +1390,7 @@ namespace Microcharts.Samples
             yield return new ExampleChartItem()
             {
                 ExampleName = "Dynamic Line Chart",
-                ExampleDescription = "Line Chart with updating series",
+                ExampleTextDescription = "Line Chart with updating series",
                 ExampleChartType = ExampleChartType.Dynamic,
                 Chart = new LineChart
                 {

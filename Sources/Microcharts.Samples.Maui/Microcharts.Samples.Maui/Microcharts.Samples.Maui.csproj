@@ -16,6 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.Microcharts.Samples.Maui</ApplicationId>
+        <ApplicationIdGuid>d6c126a3-93f0-4e10-a111-f1a0714bf228</ApplicationIdGuid>
 
         <!-- Versions -->
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -67,10 +68,6 @@
 
 	<ItemGroup>
         <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.3" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.0-preview.61" />
 	</ItemGroup>
 
 	<ItemGroup>

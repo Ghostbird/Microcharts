@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.88.0-preview.61" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.88.3" />
     <PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.8" />
     <PackageReference Include="Xamarin.AndroidX.Interpolator" Version="1.0.0.7" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
