@@ -1,6 +1,4 @@
 using Microcharts.Maui;
-using Microsoft.Maui.Controls.Hosting;
-using Microsoft.Maui.Hosting;
 
 namespace Microcharts.Samples.Maui
 {
