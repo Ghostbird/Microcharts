@@ -71,3 +71,14 @@ Built in views are provided for **UWP**, **Xamarin.Forms**, **Xamarin.iOS** and 
 ## License
 
 MIT © [Aloïs Deniel](https://aloisdeniel.com) & [Ed Lomonaco](https://edlomonaco.dev)
+
+## Building on Linux
+
+This branch is just meant for some quick tests of #325. It only suppoorts the specific use case tested: .NET 7.0 + Android API 33 on GNU/Linux (Debian 11).
+
+```sh
+dotnet build Sources/Microcharts
+dotnet build Sources/Microcharts.Maui
+```
+
+I had to add a Linux specific `TargetFrameworks` line to Microcharts.Maui.csproj because I got an error when overriding the property on the command line.
